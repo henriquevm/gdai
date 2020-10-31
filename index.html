@@ -7,42 +7,52 @@
     <title>G-DAI</title>
 
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/principal.css">
 
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header>
-            <div class="divMenu row">
-                <div class="imgLogo">
-                    <img src="img/logoSemFundo.svg" alt="logo G-DAI">
-                </div>
-                <div class="itemMenu">
-                    <p>HOME</p>
-                </div>
-                <div class="itemMenu">
-                    <p>SOBRE</p>
-                    <P>NÓS</P>
-                </div>
-                <div class="itemMenu">
-                    <p>G-DAI</p>
-                    <P>COMENTA</P>
-                </div>
-                <div class="itemMenu">
-                    <p>G-DAI</p>
-                    <P>OBSERVA</P>
-                </div>
-                <div class="itemMenu">
-                    <p>OFICINA</p>
-                    <P>DO G-DAI</P>
-                </div>
-                <div>
-                    <img src="img/iconFace.svg" alt="icone do Facebook">
-                </div>
-            </div>
-        </header>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <div class="imgLogo">
+                <img src="img/logoSemFundo.svg" alt="logo G-DAI">
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SOBRE NÓS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">G-DAI COMENTA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">G-DAI OBSERVA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">OFICINA DO G-DAI</a>
+                </li>
+            </ul>
+            <div class="navbar-text">
+                <img src="img/iconFace.svg" alt="icone do Facebook">
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container-fluid">
         <div class="imgCapa row">
             <img src="img/capaIndex.svg"
                 alt="Imagem de capa como o titulo: Grupo de Divulgação de Astronomia IFSULDEMINAS e subtitulo uma frase do Carl Sagan 'A Astronomia é uma experiência que forma o caracter e ensina a humildade' ">
@@ -162,6 +172,7 @@
         </div>
 
         <footer>
+
             <div class="divFace row">
                 <div class="txtFace col-lg-7 ">
                     <p class="text-center">Começa mais mais sobre o G-DAI no Facebook</p>
@@ -180,9 +191,23 @@
                     <p>Desenvolvido por henriquevm.dev</p>
                 </div>
             </div>
+
+            <!--<script src="js/bootstrap.js"></script>-->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+
         </footer>
 
     </div>
+
+
 </body>
 
 </html>
