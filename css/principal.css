@@ -1,22 +1,5 @@
-.divMenu {
-    height: 100px;
-    background-color: #010229;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
-}
-
 .imgLogo img {
     width: 100%;
-}
-
-.itemMenu {
-    text-align: center;
-}
-
-.itemMenu p {
-    margin: 0;
 }
 
 .imgCapa img {
@@ -77,7 +60,7 @@
 }
 
 .divFace {
-    height: 200px;
+    height: 250px;
     background-color: #113240;
     color: #fff;
 }
@@ -91,7 +74,6 @@
     font-size: 1.5rem;
     padding: 0;
 }
-
 
 .face {
     align-items: center;
