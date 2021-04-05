@@ -1,107 +1,132 @@
 .imgLogo img {
-    width: 100%;
+  width: 100%;
 }
 
 .imgCapa img {
-    width: 100%;
+  width: 100%;
 }
 
 .divSobre {
-    padding: 4rem 1rem;
-    display: flex;
-    background-color: #CED7D9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background-color: #ced7d9;
 }
 
 .txtSobre {
-    text-align: justify;
-    padding: 5rem 6rem;
+  text-align: justify;
+  padding: 5rem 6rem;
 }
 
 .imgBrasao {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .imgBrasao img {
-    margin-top: 3rem;
-    width: 100%;
-    max-width: 400px;
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 400px;
 }
 
 .divBtn {
-    text-align: center;
+  text-align: center;
 }
 
 .divComenta {
-    margin: 3rem 0;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 3rem 0;
 }
 
 .txtVideo {
-    text-align: justify;
-    padding: 0rem 2rem;
+  text-align: justify;
+  padding: 0rem 2rem;
 }
 
 .miniaturaVideo {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .miniaturaVideo iframe {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .divObserva {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: #CED7D9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ced7d9;
 }
 
 .divFace {
-    height: 250px;
-    background-color: #113240;
-    color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 250px;
+  background-color: #113240;
+  color: #fff;
 }
 
 .txtFace {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.5rem;
-    padding: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 0;
 }
 
 .face {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .rodape {
-    height: 70px;
-    background-color: #010229;
-    color: #fff;
-    text-align: center;
-    padding: 0.8rem 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70px;
+  background-color: #010229;
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem 0;
 }
 
 .rodape p {
-    margin: 0;
+  margin: 0;
+}
+.rodape a {
+  color: #fff !important;
 }
 
-
 @media (max-width: 625px) {
-    .miniaturaVideo{
-        display: none;
-    }
+  .miniaturaVideo {
+    display: none;
+  }
 
-    .txtSobre {
-        padding: 0.2rem;
-    }
+  .txtSobre {
+    padding: 0.2rem;
+  }
 }
