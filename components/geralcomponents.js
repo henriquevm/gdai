@@ -54,3 +54,29 @@ class Rodape extends HTMLElement {
     }
 }
 customElements.define('rodape-final', Rodape);
+
+class Icones extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <a
+            href="https://www.youtube.com/channel/UC3aM8LVfvsYP__1878LFvDQ"
+            target="_blank"
+        >
+            <img
+            src="img/iconYou.svg"
+            alt="icone do YouTube"
+            style="width: 30%"
+            />
+        </a>
+        &nbsp&nbsp
+        <a href="https://www.facebook.com/gdaipcs" target="_blank">
+            <img
+            src="img/iconFace.svg"
+            alt="icone do Facebook"
+            style="width: 20%"
+            />
+        </a>
+        `;
+    }
+}
+customElements.define('icone-rede', Icones);
